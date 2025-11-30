@@ -196,7 +196,8 @@ public class ConcreteSyntax {
 		e = addition();
 		// TODO TO BE CHECKED AND COMPLETED. Do we have all the operators? 
 		while (token.getValue().equals("<") || token.getValue().equals("<=")
-				|| token.getValue().equals(">=")
+				|| token.getValue().equals(">") 
+			    || token.getValue().equals(">=")
 				|| token.getValue().equals("==")
 				|| token.getValue().equals("!=")) {
 			b = new Binary();
